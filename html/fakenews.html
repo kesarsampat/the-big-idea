@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div class="navBar">
+       <a class="logo-cont" href="../index.html">
+          <img class="logo" src="../assets/logo2.png">
+      </a>
+      <div class="drop-container">
+        <div class="dropdown">
+            <button class="dropbtn blm-dropbtn">
+              <a class="drop-link nav-link blm-drop-link" href="blm.html">Black Lives Matter</a>
+            </button>
+            <div class="dropdown-content blm-dropdown-content">
+              <a href="blm.html#juneteenth">Juneteenth</a>
+              <a href="blm.html#resources">Resources</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="drop-container">
+        <div class="dropdown">
+            <button class="dropbtn covid-dropbtn">
+              <a class="drop-link nav-link  covid-drop-link" href="covid.html">COVID-19</a>
+            </button>
+            <div class="dropdown-content covid-dropdown-content">
+              <a href="covid.html#covid-basics">Basics</a>
+              <a href="covid.html#myths">Misconceptions</a>
+              <a href="covid.html#resources">Resources</a>
+            </div>
+        </div>
+      </div>
+     
+      
+
+      <div class="topnav">
+        <a class="nav-link" href="cals.html">Action Calendars</a>
+      </div>
+
+      <div class="navbar-item">
+
+        <div class="dropdown">
+            <button class="dropbtn fake-dropbtn">
+              <a class="drop-link nav-link  fake-drop-link activeNav" href="fakenews.html">Fake News</a>
+            </button>
+            <div class="dropdown-content fake-dropdown-content">
+              <a href="fakenews.html#factOp">Fact vs. Opinion</a>
+              <a href="fakenews.html#quiz-header">Quiz</a>
+              <a href="fakenews.html#resources">Resources</a>
+              
+            </div>
+        </div>
+      </div>
+
+      <div class="topnav">
+        <a class="nav-link" href="about.html">About</a>
+      </div>
+    </div>
+    
+    <!-- back to top button -->
+    <button onclick="topFunction()" class="scroll-btn" id="fake-news-scroll-btn" title="Go to top">Back to Top</button>
+
+    <div class="fakenews">
+      <div class="intro">
+        <h1>Debunking: Fake News</h1> 
+     </div>
+      
+      <div class="fakenews1" id="fakenews">
+      <div class="fakenews-intro">
+        <h2 id="factOp">Fact vs. Opinion</h2>
+    
+          <img class="fake-news-image" src ="../assets/pinocchio.png">
+          <p> Believe it or not: not everything on the Internet is true! There are a plethora of "news" sites that may seem trustworthy and reliable, but actually spread misinformation to the public. A lot of the information that's readily available to view online can be biased or misleading. To catch these sites, you must look at how exactly they present their information. Do they use loaded terms and make generalizations or do they provide you with accurate facts and statistics? Languages cues are imperative in order to detect the real from the fake! Can you differentiate between opinions and facts? Take the quiz below to test your detecting skill!   </p>
+        </div>
+        
+          <!-- ../assets/Juneteenth.png -->
+         <section class = "fake-news-quiz"> 
+        <h2 id="quiz-header"> Quiz Time! </h2>
+          <div id="quiz">
+          </div>
+
+          <div class="quiz-btn-cont">
+            <button class="quiz-submit-btn" id="submit">Submit Quiz</button>
+            <button class="quiz-submit-btn reset-btn" id="reset-btn">Start Over</button>
+          </div>
+          <div class="results-cont" id="results"></div>
+           </section>
+      <div class="fakenews-resources">
+       <h2 id="resources"> Resources To Find Reliable News</h2>
+       <p>Check out where your favorite news sites lie in reliability and bias <br /><br /></p>
+       <div class = "fake-news-resources">
+         <img class= "media-bias-chart" src= "../assets/output-onlinepngtools (1).png">
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@grawkay_squawks/video/6841685250456734982" data-video-id="6841685250456734982" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@grawkay_squawks" href="https://www.tiktok.com/@grawkay_squawks">@grawkay_squawks</a> <p><a title="greenscreen" target="_blank" href="https://www.tiktok.com/tag/greenscreen">##greenscreen</a> rating news sources so you don’t have to <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp">##fyp</a> <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage">##foryoupage</a> <a title="snoozzzapalooza" target="_blank" href="https://www.tiktok.com/tag/snoozzzapalooza">##SNOOZZZAPALOOZA</a> <a title="news" target="_blank" href="https://www.tiktok.com/tag/news">##news</a> <a title="alt" target="_blank" href="https://www.tiktok.com/tag/alt">##alt</a> <a title="dontleaveme" target="_blank" href="https://www.tiktok.com/tag/dontleaveme">##DontLeaveMe</a> <a title="change" target="_blank" href="https://www.tiktok.com/tag/change">##change</a></p> <a target="_blank" title="♬ original sound - grawkay_squawks" href="https://www.tiktok.com/music/original-sound-6841685215493016326">♬ original sound - grawkay_squawks</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+      </div>
+      </div>
+
+    
+      
+
+    </div>
+    
+
+      
+    </div>
+    <script src="fakenews.js"></script>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

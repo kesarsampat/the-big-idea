@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+</head>
+
+<body>
+
+	<div class="navBar">
+		<a class="logo-cont" href="../index.html">
+			<img class="logo" src="../assets/logo2.png">
+      </a>
+      <div class="drop-container">
+        <div class="dropdown">
+            <button class="dropbtn blm-dropbtn">
+              <a class="drop-link nav-link blm-drop-link" href="blm.html">Black Lives Matter</a>
+            </button>
+            <div class="dropdown-content blm-dropdown-content">
+              <a href="blm.html#juneteenth">Juneteenth</a>
+              <a href="blm.html#resources">Resources</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="drop-container">
+        <div class="dropdown">
+            <button class="dropbtn covid-dropbtn">
+              <a class="drop-link nav-link  covid-drop-link" href="covid.html">COVID-19</a>
+            </button>
+            <div class="dropdown-content covid-dropdown-content">
+              <a href="covid.html#covid-basics">Basics</a>
+              <a href="covid.html#myths">Misconceptions</a>
+              <a href="covid.html#resources">Resources</a>
+            </div>
+        </div>
+      </div>
+      
+
+      <div class="topnav">
+        <a class="nav-link activeNav" href="cals.html">Action Calendars</a>
+      </div>
+
+      <div class="navbar-item">
+
+        <div class="dropdown">
+            <button class="dropbtn fake-dropbtn">
+              <a class="drop-link nav-link  fake-drop-link" href="fakenews.html">Fake News</a>
+            </button>
+            <div class="dropdown-content fake-dropdown-content">
+              <a href="fakenews.html#factOp">Fact vs. Opinion</a>
+              <a href="fakenews.html#quiz-header">Quiz</a>
+              <a href="fakenews.html#resources">Resources</a>
+              
+            </div>
+        </div>
+      </div>
+
+      <div class="topnav">
+        <a class="nav-link" href="about.html">About</a>
+      </div>
+    </div>
+    
+    <!-- back to top button -->
+    <button onclick="topFunction()" class="scroll-btn" id="cals-scroll-btn" title="Go to top">Back to Top</button>
+
+    
+
+
+    <!-- A Month of Education -->
+    <div class="month" id='blm-month'>
+      <div class="intro">
+      <h1>A Month of Education</h1>
+      </div>
+      <div class="calendar-intro">
+        <p class="education-info">Dedicate 10 minutes of your day educating yourself daily.<p>
+          <p class = "video-fullscreen-notice"> Notice: To watch the videos in full screen, press play and then the "f" key on your keyboard. <p>
+      
+
+        <div class="cal-drop-cont">
+          <div class="dropdown cal-dropdown">
+            <button class="cal-dropbtn">
+              <!-- <a class="drop-link nav-link  cal-drop-link" href=""><p class="pick-text">Pick a calendar to get started!</p></a> -->
+
+              <p class="drop-link nav-link  cal-drop-link pick-text">Pick a calendar to get started!</p>
+
+               <img src="../assets/arrow.png" class="arrow-icon" id="arrow-pic">
+            </button>
+            
+            <div class="dropdown-content cal-dropdown-content">
+              <div class="blm-drop-option drop-option" id="blm-option">
+ 
+                <button id="blm-option" class="cal-btn">Black Lives Matter</button>
+              </div>
+              <div class="covid-drop-option drop-option" id="covid-option">
+   
+                <button id="covid-option" class="cal-btn" >COVID-19</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+
+      <div class="calendar-cont">
+        
+      </div>
+
+
+    </div>
+
+
+    </div>
+    
+    <script src="cals.js"></script>
+
+    <script src="../script.js"></script>
+
+  </body>
+</html>

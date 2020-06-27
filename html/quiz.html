@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
+    <meta charset="utf-8">
+    <title>repl.it</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div class="navBar">
+       <a class="logo-cont" href="../index.html">
+          <img class="logo" src="../assets/logo2.png">
+      </a>
+      <div class="drop-container">
+        <div class="dropdown">
+            <button class="dropbtn blm-dropbtn">
+              <a class="drop-link nav-link blm-drop-link" href="blm.html">Black Lives Matter</a>
+            </button>
+            <div class="dropdown-content blm-dropdown-content">
+              <a href="blm.html#juneteenth">Juneteenth</a>
+              <a href="blm.html#resources">Resources</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="drop-container">
+        <div class="dropdown">
+            <button class="dropbtn covid-dropbtn">
+              <a class="drop-link nav-link  covid-drop-link" href="covid.html">COVID-19</a>
+            </button>
+            <div class="dropdown-content covid-dropdown-content">
+              <a href="covid.html#covid-basics">Basics</a>
+              <a href="covid.html#myths">Misconceptions</a>
+              <a href="covid.html#resources">Resources</a>
+            </div>
+        </div>
+      </div>
+<div class="navbar-item">
+
+        <div class="dropdown">
+            <button class="dropbtn fake-dropbtn">
+              <a class="drop-link nav-link  fake-drop-link" href="fakenews.html">Fake News</a>
+            </button>
+            <div class="dropdown-content fake-dropdown-content">
+              <a href="fakenews.html#factOp">Fact vs. Opinion</a>
+              <a href="fakenews.html#quiz-header">Quiz</a>
+              <a href="fakenews.html#resources">Resources</a>
+              
+            </div>
+        </div>
+      </div>
+      
+
+      <div class="topnav">
+        <a class="nav-link" href="cals.html">Action Calendars</a>
+      </div>
+
+      
+
+      <div class="topnav">
+        <a class="nav-link" href="about.html">About</a>
+      </div>
+    </div>
+    
+    <!-- back to top button -->
+    <button onclick="topFunction()" class="scroll-btn" id="blm-scroll-btn" title="Go to top">Back to Top</button>
+
+      <div class="intro">
+        <h1>Content Quiz</h1> 
+     </div>
+    </div>
+  <div class="content-quiz">
+    <div class="center">
+      <h2 class="top">
+        Take this quiz to receive resources tailored to your preferences!
+      </h2>
+      <br />
+      <br />
+    </div>
+    <form class="quiz">
+      
+      <label for="question 1">
+        What topic would you like to learn about?</label>
+      <br />
+      <input
+        type="radio"
+        id="Black Lives Matter"
+        name="question1"
+        value="25"
+        class="question1"
+      />
+   
+      <label for="Black Lives Matter">Black Lives Matter</label>
+      <input
+        type="radio"
+        id="Covid"
+        name="question1"
+        value="56"
+        class="question1"
+      />
+      <label for="Covid">COVID-19</label>
+      <br />
+      <br />
+      <br />
+
+      <label for="question 2">
+        What is your preferred method of learning?</label>
+      <br />
+      <input
+        type="radio"
+        id="Read"
+        name="question2"
+        value="78"
+        class="question2"
+      />
+      <label for="Read">Read</label>
+
+      <input
+        type="radio"
+        id="Listen"
+        name="question2"
+        value="94"
+        class="question2"
+      />
+      <label for="Listen">Listen</label>
+
+      <input
+        type="radio"
+        id="Watch"
+        name="question2"
+        value="65"
+        class="question2"
+      />
+      <label for="Watch">Watch</label>
+      <br />
+      <br />
+      <br />
+
+      <label for="question 3">
+        If you picked Black Lives Matter, how would you like to take action?</label
+      >
+      <br />
+      <input
+        type="radio"
+        id="signPetitions"
+        name="question3"
+        value="72"
+        class="question3"
+      />
+      <label for="signPetitions">Sign Petitions</label>
+      <input
+        type="radio"
+        id="Donate1"
+        name="question3"
+        value="54"
+        class="question3"
+      />
+      <label for="Donate1">Donate</label>
+      <input
+        type="radio"
+        id="N/A"
+        name="question3"
+        value="0"
+        class="question3"
+      />
+      <label for="N/A">N/A</label>
+      <br />
+      <br />
+      <br />
+
+      <input type="submit" class="submit" value="Submit!" />
+    </form>
+
+   
+    <script src="https://button.glitch.me/button.js" defer></script>
+    <!-- import the webpage's javascript file -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+     
+    <script src="/script.js" defer></script>
+    <script src="../script.js"></script>
+    <script src="quiz.js"></script>
+    </div>
+  </body>
+</html>
